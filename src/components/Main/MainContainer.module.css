@@ -1,0 +1,52 @@
+.mainContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.leftContainer {
+  width: 25%;
+  height: 100%;
+  background-color: rgb(3, 3, 3);
+  display: flex;
+  flex-direction: column;
+}
+
+.headingContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 2% 5%;
+  border-bottom: 1px solid white;
+  user-select: none;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+  cursor: pointer;
+}
+
+.iconContainer:hover {
+  background-color: rgb(26, 26, 26);
+  border-radius: 10px;
+}
+
+.icon {
+  font-size: 40px;
+}
+
+.heading {
+  font-size: larger;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+}
+
+.rightContainer {
+  width: 75%;
+  height: 100%;
+}

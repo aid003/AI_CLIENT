@@ -1,0 +1,59 @@
+.mainContainer {
+  width: 90%;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContainer:first-child {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.propertyContainer {
+  max-width: 90%;
+  padding: 10px 7px;
+  display: flex;
+  flex-direction: row;
+  cursor: default;
+  user-select: none;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.propertyContainer:hover {
+  background-color: rgb(16, 16, 16);
+}
+
+.propertyBox {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  user-select: none;
+}
+
+.property {
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  margin-left: 10px;
+  user-select: none;
+}
+
+.pensilSvg {
+  margin-right: 2%;
+  font-size: 20px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.pensilSvg:hover {
+  background-color: rgb(41, 29, 29);
+  border-radius: 5px;
+}

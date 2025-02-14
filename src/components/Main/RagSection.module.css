@@ -1,0 +1,92 @@
+.ragContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 3%;
+}
+
+.controlContainer {
+  width: 100%;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonUpdateStatus {
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: rgb(27, 27, 27);
+}
+
+.buttonUpdateStatus:hover {
+  background-color: rgb(50, 50, 50);
+}
+
+.createCollectionContainer {
+  width: 100%;
+  margin-top: 2%;
+}
+
+.headingCreateCollection {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.controlBlockContainer {
+  width: 100%;
+  height: 50px;
+  margin-top: 0.2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.createInput {
+  width: 250px;
+  height: 30px;
+  background-color: rgb(36, 36, 36);
+  color: rgb(198, 198, 198);
+  padding: 3px 7px;
+  border-radius: 5px;
+}
+
+.createButton {
+  margin-left: 5%;
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: rgb(27, 27, 27);
+}
+
+.createButton:hover {
+  background-color: rgb(50, 50, 50);
+}
+
+.uploadContainer {
+    margin-left: 3%;
+    width: max-content;
+    display: flex;
+    padding: 5px 15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(22, 22, 22);
+    cursor: pointer;
+}
+
+.uploadContainer:hover {
+    background-color: rgb(52, 52, 52);
+}
+
+.fileIcon {
+    font-size: 27px;
+    margin-right: 10px;
+}
+
+.fileText {
+    font-size: larger;
+}
